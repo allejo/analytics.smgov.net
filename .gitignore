@@ -14,3 +14,8 @@ _site
 /work
 analytics.private
 node_modules
+__pycache__
+.vscode
+.python-version
+*.zip
+*.gz
