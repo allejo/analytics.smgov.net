@@ -98,6 +98,13 @@ selectNodeVersion () {
 # Deployment
 # ----------
 
+if [ -e "$DEPLOYMENT_TARGET/requirements.txt" ]; then
+  echo "Pip install requirements."
+  cd "$DEPLOYMENT_TARGET"
+  D:\Python34\python -m pip install --upgrade -r requirements.txt
+  exitWithMessageOnError "pip failed"
+fi
+
 echo Handling node.js deployment.
 
 # 1. KuduSync
@@ -115,13 +122,6 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   eval $NPM_CMD install --production
   exitWithMessageOnError "npm failed"
   cd - > /dev/null
-fi
-
-if [ -e "$DEPLOYMENT_TARGET/requirements.txt" ]; then
-  echo "Pip install requirements."
-  cd "$DEPLOYMENT_TARGET"
-  D:\Python34\python -m pip install --upgrade -r requirements.txt
-  exitWithMessageOnError "pip failed"
 fi
 
 ##################################################################################################################################
