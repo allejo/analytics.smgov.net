@@ -1,0 +1,91 @@
+{
+    
+        "analytics": {
+            "domain": "https://analytics.smgov.net"
+        },
+    
+        "annualreport": {
+            "domain": "https://annualreport.smgov.net"
+        },
+    
+        "bbb": {
+            "domain": "https://www.bigbluebus.com"
+        },
+    
+        "beta": {
+            "domain": "https://beta.smgov.net"
+        },
+    
+        "citynet": {
+            "domain": "http://www.smcitynet.com"
+        },
+    
+        "downtownsmplan": {
+            "domain": "http://www.downtownsmplan.org"
+        },
+    
+        "finance": {
+            "domain": "https://finance.smgov.net"
+        },
+    
+        "gtfs": {
+            "domain": "http://gtfs.bigbluebus.com"
+        },
+    
+        "newsroom": {
+            "domain": "https://newsroom.smgov.net"
+        },
+    
+        "open": {
+            "domain": "http://open.smgov.net"
+        },
+    
+        "santamonicacradletocareer": {
+            "domain": "https://santamonicacradletocareer.org"
+        },
+    
+        "santamonicafire": {
+            "domain": "https://www.santamonicafire.org"
+        },
+    
+        "santamonicagov": {
+            "domain": "https://www.santamonica.gov"
+        },
+    
+        "santamonicaparks": {
+            "domain": "https://www.santamonicaparks.org"
+        },
+    
+        "santamonicapd": {
+            "domain": "https://www.santamonicapd.org"
+        },
+    
+        "smgov": {
+            "domain": "https://www.smgov.net"
+        },
+    
+        "smpl": {
+            "domain": "https://smpl.org"
+        },
+    
+        "smvote": {
+            "domain": "http://www.smvote.org"
+        },
+    
+        "tongvapark": {
+            "domain": "https://tongvapark.smgov.net"
+        },
+    
+        "water": {
+            "domain": "http://water.smgov.net"
+        },
+    
+        "wellbeing": {
+            "domain": "http://wellbeing.smgov.net"
+        },
+    
+        "youthtech": {
+            "domain": "http://www.santamonicayouthtech.com"
+        }
+    
+}
