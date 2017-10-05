@@ -101,7 +101,7 @@ selectNodeVersion () {
 if [ -e "$DEPLOYMENT_TARGET/requirements.txt" ]; then
   echo "Pip install requirements."
   cd "$DEPLOYMENT_TARGET"
-  D:/home/Python36/python.exe -m pip install --upgrade -r requirements.txt
+  python -m pip install --upgrade -r requirements.txt
   exitWithMessageOnError "pip failed"
 fi
 
