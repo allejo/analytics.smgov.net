@@ -117,6 +117,13 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd - > /dev/null
 fi
 
+if [ -e "$DEPLOYMENT_TARGET/requirements.txt" ]; then
+  echo "Pip install requirements."
+  cd "$DEPLOYMENT_TARGET"
+  D:\Python34\python -m pip install --upgrade -r requirements.txt
+  exitWithMessageOnError "pip failed"
+fi
+
 ##################################################################################################################################
 
 # Post deployment stub
