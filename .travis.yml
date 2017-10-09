@@ -28,10 +28,10 @@ script:
 before_deploy:
   - bash .travis/pre-deploy.sh
 
-after_success:
-  - test $TRAVIS_PULL_REQUEST && ./.travis/pr_deploy
-after_failure:
-  - test $TRAVIS_PULL_REQUEST && ./.travis/pr_status error "Website failed to build"
+#after_success:
+#  - test $TRAVIS_PULL_REQUEST && ./.travis/pr_deploy
+#after_failure:
+#  - test $TRAVIS_PULL_REQUEST && ./.travis/pr_status error "Website failed to build"
 
 deploy:
   provider: azure_web_apps
